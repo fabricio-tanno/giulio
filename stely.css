@@ -1,0 +1,121 @@
+.header__home{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    padding: 20px;
+    margin: 0;
+
+
+}
+.titulo__home{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3pc;
+    font-family: 'Rubik', sans-serif;
+
+
+}
+.botoes__home{
+    background-color: rgb(30, 30, 30);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 8px;
+    text-decoration: 0;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}   
+.botoes{
+    text-align: center;
+    margin: 10px;
+    margin-top: 15px;
+
+}
+
+.grid__container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    padding: 50px;
+
+
+
+}
+.grid__item{
+   background-color: rgb(253, 255, 255);
+   padding: 10px;
+   border: 3pc;
+   margin: 1.4pc;
+   border-radius: 5px;
+    border-color: black ;
+
+}
+body{
+   margin: 0;
+   background-color: rgb(226, 226, 226);
+}
+.footer__home{
+
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 5px;
+    border: 15px;
+
+}
+.footer__home__1{
+    text-align: center;
+    margin: 0;
+
+
+}
+.botoes__home:hover{
+
+    background-color:  rgb(75, 75, 75);
+}
+.grid__item:hover{
+
+    transform: scale(1.1) ;
+    transition: 300ms linear;
+}
+
+.body__sobre{
+
+
+    background-color:  rgb(226, 226, 226);
+}
+.nav__sobre{
+
+    padding: 20px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 5px;
+}
+.img__sobre{
+
+    text-align: center;
+    padding: 28px;
+
+}
+.text__img{
+
+    font-family:'Rubik', sans-serif ;
+    font-size: 18px;
+}
+.titulo__sobre{
+
+    text-align: center;
+    font-family:'Rubik', sans-serif ;
+    font-size: 30px;
+}
+.form__contato{
+
+    text-align: center;
+    margin: 30px;
+}
+.footer__contato{
+
+    background-color: aqua;
+}
